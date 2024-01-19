@@ -82,9 +82,10 @@ const ListSectionStar = () => {
 
   const getStarList = async (constellationId) => {
     try {
-      const response = await useConstellationApi.constellationsGetConstellation(
-        constellationId,
-      );
+      const response =
+        await useConstellationApi.constellationsGetConstellation(
+          constellationId,
+        );
       setResponseState(response.status);
       if (response.status === 200) {
         setStarList(response.resultData);
@@ -127,9 +128,8 @@ const ListSectionStar = () => {
   const handlePinClick = async (constellationId) => {
     if (alreadyPined) {
       try {
-        const response = await useConstellationApi.constellationsDeletePin(
-          constellationId,
-        );
+        const response =
+          await useConstellationApi.constellationsDeletePin(constellationId);
         setResponseState(response.status);
         if (response.status === 200) {
           setAlreadyPined(false);
@@ -146,9 +146,8 @@ const ListSectionStar = () => {
       }
     } else {
       try {
-        const response = await useConstellationApi.constellationsGetPin(
-          constellationId,
-        );
+        const response =
+          await useConstellationApi.constellationsGetPin(constellationId);
         setResponseState(response.status);
         setAlreadyPined(true);
       } catch (error) {}
