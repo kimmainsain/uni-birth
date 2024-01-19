@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uni-birth/static/css/main.09c4279a.css",
-    "main.js": "/uni-birth/static/js/main.b6060e87.js",
+    "main.css": "/uni-birth/static/css/main.6d1d9fb3.css",
+    "main.js": "/uni-birth/static/js/main.90fb3794.js",
     "static/media/earth.png": "/uni-birth/static/media/earth.18db36598d86fd120e43.png",
     "static/media/Pretendard-Regular.woff": "/uni-birth/static/media/Pretendard-Regular.21b4bbcb93a4b1214f7d.woff",
     "static/media/help4.png": "/uni-birth/static/media/help4.07ccb83e8d14314f1a14.png",
@@ -22,11 +22,11 @@
     "static/media/slick.ttf": "/uni-birth/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/uni-birth/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/uni-birth/index.html",
-    "main.09c4279a.css.map": "/uni-birth/static/css/main.09c4279a.css.map",
-    "main.b6060e87.js.map": "/uni-birth/static/js/main.b6060e87.js.map"
+    "main.6d1d9fb3.css.map": "/uni-birth/static/css/main.6d1d9fb3.css.map",
+    "main.90fb3794.js.map": "/uni-birth/static/js/main.90fb3794.js.map"
   },
   "entrypoints": [
-    "static/css/main.09c4279a.css",
-    "static/js/main.b6060e87.js"
+    "static/css/main.6d1d9fb3.css",
+    "static/js/main.90fb3794.js"
   ]
 }
