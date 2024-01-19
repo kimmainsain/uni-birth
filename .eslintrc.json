@@ -18,6 +18,8 @@
   },
   "plugins": ["react", "prettier", "react-hooks"],
   "rules": {
+    "no-unused-vars": "off",
+    "no-console": "off",
     "react/prop-types": "off",
     // "react/no-unknown-property": ["error", { "ignore": ["css"] }],
     "react/no-unknown-property": "off",
