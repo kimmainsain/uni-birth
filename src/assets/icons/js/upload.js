@@ -1,0 +1,27 @@
+import React from "react";
+
+const Upload = () => (
+  <svg
+    width="76"
+    height="76"
+    viewBox="0 0 76 76"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect x="0.5" y="0.5" width="75" height="75" stroke="white" />
+    <path
+      d="M38 28L38 48"
+      stroke="white"
+      strokeWidth="2"
+      stroke-linecap="round"
+    />
+    <path
+      d="M28 38H48"
+      stroke="white"
+      strokeWidth="2"
+      stroke-linecap="round"
+    />
+  </svg>
+);
+
+export default Upload;
